@@ -19,7 +19,7 @@ public class databaeDemo {
 		String host ="localhost";
 		String port ="3306";
 		Connection conn = DriverManager.getConnection("jdbc:mysql://" +host+ ":" +port+ "/Qadbt", "root", "root");
-		 
+		 System.out.println("Demo of Git");
 		Statement s = conn.createStatement();
 		ResultSet rs = s.executeQuery("select * from employeeinfo where name = 'Sam'");
 		while(rs.next())

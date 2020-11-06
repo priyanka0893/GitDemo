@@ -26,6 +26,8 @@ public class Testcase {
 		 driver.findElement(By.cssSelector("#u_0_b")).click();
 		 Thread.sleep(3000);
 		 driver.quit();
+		 
+		 System.out.println("Git Repository Demo");
 	}
 	
 	@Test
